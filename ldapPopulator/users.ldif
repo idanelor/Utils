@@ -1,0 +1,92 @@
+dn: ou=People,dc=snykonprem,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=snykonprem,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
+dn: cn=dev,ou=Groups,dc=example,dc=com
+objectClass: posixGroup
+cn: dev
+gidNumber: 5000
+
+dn: uid=reyesloretta,ou=People,dc=snykonprem,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: reyesloretta
+sn: Long
+givenName: Larry
+cn: Larry Long
+displayName: Larry Long
+uidNumber: 11000
+gidNumber: 5000
+userPassword: reyeslorettaldappassword
+gecos: Larry Long
+loginShell: /bin/bash
+homeDirectory: /home/reyesloretta
+
+dn: uid=elizabeth78,ou=People,dc=snykonprem,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: elizabeth78
+sn: Solis
+givenName: Ryan
+cn: Ryan Solis
+displayName: Ryan Solis
+uidNumber: 11001
+gidNumber: 5000
+userPassword: elizabeth78ldappassword
+gecos: Ryan Solis
+loginShell: /bin/bash
+homeDirectory: /home/elizabeth78
+
+dn: uid=morenoryan,ou=People,dc=snykonprem,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: morenoryan
+sn: Long
+givenName: Danny
+cn: Danny Long
+displayName: Danny Long
+uidNumber: 11002
+gidNumber: 5000
+userPassword: morenoryanldappassword
+gecos: Danny Long
+loginShell: /bin/bash
+homeDirectory: /home/morenoryan
+
+dn: uid=michaelgolden,ou=People,dc=snykonprem,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: michaelgolden
+sn: Webster
+givenName: Melissa
+cn: Melissa Webster
+displayName: Melissa Webster
+uidNumber: 11003
+gidNumber: 5000
+userPassword: michaelgoldenldappassword
+gecos: Melissa Webster
+loginShell: /bin/bash
+homeDirectory: /home/michaelgolden
+
+dn: uid=csmith,ou=People,dc=snykonprem,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: csmith
+sn: Rios
+givenName: James
+cn: James Rios
+displayName: James Rios
+uidNumber: 11004
+gidNumber: 5000
+userPassword: csmithldappassword
+gecos: James Rios
+loginShell: /bin/bash
+homeDirectory: /home/csmith

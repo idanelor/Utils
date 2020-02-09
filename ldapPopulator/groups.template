@@ -1,12 +1,4 @@
-dn: ou=People,dc={domainName},dc={domainPostfix}
-objectClass: organizationalUnit
-ou: People
-
-dn: ou=Groups,dc={domainName},dc={domainPostfix}
-objectClass: organizationalUnit
-ou: Groups
-
-dn: cn=dev,ou=Groups,dc=example,dc={domainPostfix}
-objectClass: posixGroup
-cn: dev
-gidNumber: 5000
+dn: ou=dev,dc={domainName},dc={domainPostfix}
+objectclass: organizationalUnit
+objectclass: top
+ou: dev

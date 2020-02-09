@@ -1,16 +1,9 @@
-
-dn: uid={username},ou=People,dc={domainName},dc={domainPostfix}
-objectClass: inetOrgPerson
-objectClass: posixAccount
-objectClass: shadowAccount
-uid: {username}
-sn: {lastName}
-givenName: {givenName}
+dn: cn={givenName} {lastName},ou=dev,dc={domainName},dc={domainPostfix}
 cn: {givenName} {lastName}
-displayName: {givenName} {lastName}
-uidNumber: {uidNumber}
-gidNumber: 5000
-userPassword: {username}ldappassword
-gecos: {givenName} {lastName}
-loginShell: /bin/bash
-homeDirectory: /home/{username}
+givenname: {givenName}
+mail: {username}@{domainName}.{domainPostfix}
+objectclass: inetOrgPerson
+objectclass: top
+sn: {lastName}
+uid: {username}
+userpassword: {userPassword} # Calc through slappasswd -h {MD5} -s idanelorldappassword

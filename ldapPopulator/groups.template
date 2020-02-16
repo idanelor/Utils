@@ -1,4 +1,0 @@
-dn: ou=dev,dc={domainName},dc={domainPostfix}
-objectclass: organizationalUnit
-objectclass: top
-ou: dev

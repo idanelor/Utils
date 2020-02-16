@@ -1,9 +1,0 @@
-dn: cn={givenName} {lastName},ou=dev,dc={domainName},dc={domainPostfix}
-cn: {givenName} {lastName}
-givenname: {givenName}
-mail: {username}@{domainName}.{domainPostfix}
-objectclass: inetOrgPerson
-objectclass: top
-sn: {lastName}
-uid: {username}
-userpassword: {userPassword} # Calc through slappasswd -h {MD5} -s idanelorldappassword
